@@ -1,14 +1,19 @@
-
+import Home from './pages/Home/Home.jsx';
 import './App.css'
+import './index.css'
+
 
 function App() {
   
 
   return (
     <>
-      <h1>hello guys</h1>
+    <div className='App'>
+    <Home/>
+    </div>
+     
     </>
   )
 }
 
-export default App
+export default App;
